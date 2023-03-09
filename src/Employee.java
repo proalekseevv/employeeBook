@@ -81,13 +81,13 @@ public class Employee {
 
         for (Employee print : employee) {
             System.out.println(print);
-        };
+        }
 
 
     }
 
-
-    public static int count(Employee[] employees) {
+    // Куда прописать Salary sum ?? Чтобы метод заработал
+    public static int Salarysum(Employee[] employees) { // Куда прописать Salary sum ?? Чтобы метод заработал
         int sum = 0;
         for (int i = 0; i < employees.length; i++) {
             sum = sum + employees[i].getSalary();
